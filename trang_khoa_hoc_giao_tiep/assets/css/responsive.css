@@ -1,0 +1,193 @@
+@media (min-width:768px) and (max-width:1023px) {
+    #content .content-section{
+        width: 800px;
+        width: 100%;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+     #search-cell{
+        width: 93%;
+    }
+    #header .search-button{
+        width: 7%;
+    }
+    #header .header-search{
+        margin-left: 0px;
+    }
+    #header .left-header{
+        margin-left: 40px;
+    }
+    #header .header-button{
+        margin-right: 10px;
+        margin-top: 24px;
+    }
+    #nav .nav-menu{
+        margin-left: 48px;
+    }
+    #nav .nav-menu li a{
+        font-size: 10px;
+    }
+    #nav .nav-menu>li>a{
+        padding: 11px 5px;
+    }
+    #content .width-content{
+        margin-left: 19px;
+        margin-right: 18px;
+        max-width: 800px;
+        width: 100%;
+    }
+    #content .list-introduce {
+        margin-left: 42px;
+    }
+    #content .cont-int-member{
+        padding-left: 8px;
+    }
+    #content .content-road-map{
+        margin: 0 12px;
+    }
+    #content .road-map{
+        padding-right: 38px;
+    }
+    #content .content-road-map p {
+        font-size: 14px;
+    }
+    #content .sub-content {
+        padding-bottom: 0px; 
+    }
+    #footer .information{
+        margin:48px 32px;
+    }
+    #footer .download{
+        margin-left: 12px;
+        margin-bottom: 24px;
+    }
+    #footer .img-app{
+        margin-right: 0px;
+    }
+}
+@media (max-width:767px){
+    #header .header-search{
+        display: none;
+    }
+    #header .left-header{
+        margin-left: 0;
+    }
+    #nav{
+        height: 46px;
+    }
+    #nav .nav-menu{
+        display: none;
+        float: left;
+    }
+    #header .header-button{
+        margin-right: 0px;
+    }
+    .btn-menu{
+        display: inline-block;
+        font-size: 32px;
+        margin-top: 8px;
+        color: #fff;
+        margin-right: 36px;
+        position: absolute;
+        margin-left: 8px;
+    }
+    #mobile-menu-close{
+        display: none;
+    }
+    #nav .nav-menu>li{
+        display: block;
+        background-color: rgb(10, 35, 143);
+        padding-right:46px
+    }
+        
+        #nav .nav-menu{
+            position: relative;
+            top:46px;
+            margin-left: 0;
+        }
+    /*------------*/
+    #content .width-content{
+        margin-left: 0px;
+        margin-right: 18px;
+        max-width: 800px;
+        width: 100%;
+    }
+   
+    .two-col{
+        width: 100%;
+    }
+    #content .heading-introduce h3{
+        margin-left: 24px;
+    }
+    #content .video-introduce .video{
+        margin-left: 14px;
+        padding: 0 15px;
+    }
+    #content .video-introduce{
+        width: 100%;
+    }
+    #content .road-map-member{
+        width: 100%;
+    }
+    #content .list-introduce{
+        margin-left: 29px;
+    }
+    #content .cont-int-member{
+        padding-left: 24px;
+    }
+    #content .btn-cons {
+        width: 100%;
+        font-size: 22px;
+    }
+    #content .sub-content {
+         padding-bottom: 0;
+    }
+    #content .content-road-map{
+        height: auto;
+    }
+    #content .content-road-map p{
+        padding-bottom: 24px;
+    }
+    #content .btn-sign-up {
+        position: absolute;
+        left: 9px;
+        bottom: 10px;
+        font-size: 8px;
+    }
+    .form-sign-up .location{
+        padding: 0;
+    }
+    .form-sign-up .img-location{
+        margin-right: 0;
+    }
+    .form-sign-up .form-text {
+        margin-left: 0;
+        padding: 0 18px;
+    }
+    .form-sign-up .form-sign-up-text {
+        width: 100%;
+    }
+    .form .sent-btn{
+        margin-left: 0;
+    }
+    .form-sign-up .location h2{
+        margin-right: 0;
+    }
+    #footer .information {
+        margin: 48px 47px;
+    }
+    #footer .follow-me {
+        margin-left: 80px;
+    }
+    #footer .download{
+    margin-left: 80px;
+    }
+    #header .header-button {
+        width: 200px;
+    }
+        
+    #header .btn-sign-up,
+    #header .btn-sign-in{
+        font-size: 12px;
+    }
+}

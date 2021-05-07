@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\.."
+		},
+		{
+			"path": "..\\..\\..\\..\\w3_band"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "trang_khoa_hoc_giao_tiep"
+	}
+}
