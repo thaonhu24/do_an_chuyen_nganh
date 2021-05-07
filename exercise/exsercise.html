@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../layout/header.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+    <script src="https://use.fontawesome.com/9b42ba68a2.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="header">
+        <div class="first-header">
+            <div class="header-admin">
+                <ul class="admin-inf">
+                    <li>
+                        <i class="icon-admin ti-settings"></i>
+                        Admin
+                    </li>
+                    <li>
+                        <img src="../image/phone-call.png" alt="" width="14px" height="14px">
+                        0379089474
+                    </li>
+                    <li>
+                        <i class="icon-admin ti-email"></i>
+                        anhngu4eng@gmail.com
+                    </li>
+                </ul>
+            </div>
+            <div class="heading-user">
+                <ul class="user-inf">
+                    <img src="../image/notification.png" alt="">
+                    <img src="../image/speech-bubble (2).png" alt="">
+                    <img src="../image/profile-user.png" alt="">
+                    <i class="icon-down-user ti-angle-down"></i>
+                </ul>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div id="nav">
+            <div class="img-nav col">
+                <img src="../image/Thiết kế không tên (4).png" alt="" class="nav-logo" >
+            </div>
+            <div class="search-nav col">
+                <img class="col icon-search" src="../image/magnifier.png" alt="">
+                <input class="col search-cell" type="text" placeholder="Tìm kiếm">
+            </div>
+            <div class="col nav-menu">
+                <ul class="menu">
+                    <li><a href="#">TRANG CHỦ</a> </li>
+                    <li><a href="#">
+                        GIỚI THIỆU
+                        <i class="icon-down ti-angle-down"></i>
+                        <div class="thirt-menu">
+                            <ul class="menu-list">
+                                <li><a href="#">Tuyển dụng</a></li>
+                                <li><a href="#">Hệ thống cơ sở</a></li>
+                                <li><a href="#">Đội ngũ giảng viên</a></li>
+                                <li><a href="#">Lịch khai giảng</a></li>
+                            </ul>
+                        </div></a> </li>
+                    <li><a href="#">HỌC VIÊN
+                        <i class="icon-down ti-angle-down"></i>
+                        <div class="thirt-menu">
+                            <ul class="menu-list">
+                                <li><a href="#">Vinh doanh học viên</a></li>
+                                <li><a href="#">Cảm nhận học viên</a></li>
+                                <li><a href="#">Hoạt động ngoại khóa</a></li>
+                            </ul>
+                        </div>
+                    </a> </li>
+                    <li><a href="">KHÓA HỌC
+                        <i class="icon-down ti-angle-down"></i>
+                        <div class="thirt-menu">
+                            <ul class="menu-list">
+                                <li><a href="#">Tiếng anh giao tiếp</a></li>
+                                <li><a href="#">TOEIC 2 kỹ năng</a></li>
+                                <li><a href="#">TOEIC 4 kỹ năng</a></li>
+                                <li><a href="#">IELTS</a></li>
+                            </ul>
+                        </div>
+                    </a></li>
+                    <li><a href="">THI THỬ</a></li>
+                    <li><a href="">TIỆN ÍCH</a></li>
+                    <li><a href="">LIÊN HỆ</a></li>
+                </ul>
+                <i id= "mobile-menu-open"class="btn-menu ti-menu"></i>
+                <i id= "mobile-menu-close"class="btn-menu ti-close"></i>
+            </div>
+        </div>
+    </div>
+    <div id="content">
+        <!--Các dialog phụ hiện tại trang chính -->
+        <div class="dialog-notification">
+            <table class="table-notify">
+                <tr>
+                    <th>
+                        <p class="heading-notif">Thông báo</p>
+                    </th>
+                </tr>
+                <tr>
+                    
+                    <td>
+                        <div class="notification-member">
+                            <p class="title-notif">Bài tập</p>
+                            <p class="content-notif">Đã upload bài tập mới</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="notification-member">
+                            <p class="title-notif">Lịch học</p>
+                            <p class="content-notif">Lớp mai nghỉ lễ</p>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="content-left col">
+            <div class="main-content-display">
+
+                <div id="lesson">
+                    <p class="heading-content">
+                        TÓM TẮT NỘI DUNG BUỔI HỌC
+                    </p>
+                    <!--Nếu là tài khoản của giáo viên nút này mới hiện-->
+                    <button class="add" id="add-lesson">Thêm</button>
+                    <div class="lesson-body">
+    
+                        <div class="heading-lesson">
+                            <p class="name-lesson">
+                                Lesson 1
+                            </p>
+                            <p class="date">Ngày:</p>
+                        </div>
+                        <div class="content-lesson">
+                            <p>1. Các thì đơn (Hiện tại đơn – Present simple, Quá khứ đơn – Past simple, Tương lai đơn – Future simple)
+                            <br>2. Các thì tiếp diễn (Present continuous, Past continuous, Future continuous)
+                            <br>3. Các thì hoàn thành (Present Perfect, Past perfect, Future Perfect)
+                            <br>4. Động từ khuyết thiếu (Modal verb – chính là các từ như can, may, must..)
+                            <br>B. Part of the speech: Các bộ phận của một câu
+                            <br>Gồm các loại từ hết sức cơ bản: Adjective (Tính từ), Noun (Danh từ), Pronoun (Đại từ), Adverb (Trạng từ), Articles (Mạo từ), Preposition (Giới từ).</p>
+                        </div>
+                    </div>
+                    <!--Giao diện thêm tóm tắt bài học-->
+                    <form action="" class="add-lesson">
+                        <label class="title" for="">Bài học: </label>
+                        <select name="choose-lesson" id="choose-lesson">
+                            <option value="Lesson 1">Lesson 1</option>
+                            <option value="Lesson 2">Lesson 2</option>
+                            <option value="Lesson 3">Lesson 3</option>
+                            <option value="Lesson 4">Lesson 4</option>
+                            <option value="Lesson 5">Lesson 5</option>
+                            <option value="Lesson 6">Lesson 6</option>
+                            <option value="Lesson 7">Lesson 7</option>
+                            <option value="Lesson 8">Lesson 8</option>
+                            <option value="Lesson 9">Lesson 9</option>
+                            <option value="Lesson 10">Lesson 10</option>
+                            <option value="Lesson 11">Lesson 11</option>
+                            <option value="Lesson 12">Lesson 12</option>
+                            <option value="Lesson 13">Lesson 13</option>
+                            <option value="Lesson 14">Lesson 14</option>
+                            <option value="Lesson 15">Lesson 15</option>
+                            <option value="Lesson 16">Lesson 16</option>
+                            <option value="Lesson 17">Lesson 17</option>
+                            <option value="Lesson 18">Lesson 18</option>
+                            <option value="Lesson 19">Lesson 19</option>
+                            <option value="Lesson 20">Lesson 20</option>
+                            <option value="Lesson 21">Lesson 21</option>
+                            <option value="Lesson 22">Lesson 22</option>
+                            <option value="Lesson 23">Lesson 23</option>
+                            <option value="Lesson 24">Lesson 24</option>
+                            <option value="Lesson 25">Lesson 25</option>
+                            <option value="Lesson 26">Lesson 26</option>
+                            <option value="Lesson 27">Lesson 27</option>
+                            <option value="Lesson 28">Lesson 28</option>
+                            <option value="Lesson 29">Lesson 29</option>
+                            <option value="Lesson 30">Lesson 30</option>
+                        </select>
+                        <div class="content-lesson-edt">
+                            <label id="title-content" for="">Nội dung:</label>
+                            <textarea name="place-content-lesson" id="place-content-lesson" cols="30" rows="10"></textarea>
+                        </div>
+                        <input type="submit" value="Hoàn thành" class="btn-done" id="btn-add-lesson-done">
+                    </form>
+                </div>
+                <div id="video">
+                    <p class="heading-content">
+                        VIDEO BÀI GIẢNG
+                    </p>
+                    <!--Nếu là tài khoản của giáo viên nút này mới hiện-->
+                    <button class="add" id="add-video">Thêm</button>
+                    <video class="video-lesson" src="./assets/img/y2mate.com - Học tiếng Anh với Video kèm phụ đề song ngữ_360p.mp4" controls></video>
+                </div>
+            </div>
+            <div class="create-exercise">
+                <form action="" id="create-exer">
+                    <p class="heading-content">
+                        TẠO BÀI TẬP
+                    </p>
+                    <div class="deadline">
+                        <p class="title">Deadline</p>
+                        <input type="date" name="datedeadline" class="choose-dl" id="date-deadline">
+                        <input type="time" name="timeDeadline" class="choose-dl" id="time-deadline">
+                    </div>
+                    <div class="content-exercise">
+                        <p class="title-content-ex">
+                            Nội dung bài tập
+                        </p>
+                        <textarea name="content" id="place-content" cols="30" rows="7"></textarea>
+                    </div>
+                    <div class="btn-content">
+                        <input type="file" name="file" id="file" class="custom-file-input" data-multiple-caption="{count} files selected" multiple />
+                        <input type="submit" value="Hoàn thành" class="btn-done" id="btn-done-exercise">
+                    </div>
+                </form>
+            </div>
+            <!--Tạo thông báo-->
+            <div class="create-notification">
+                <form action="" id="create-notif">
+                    <p class="heading-content">
+                        TẠO THÔNG BÁO
+                    </p>
+                    <div class="choose-title">
+                        <p class="title">Tiêu đề</p>
+                        <select name="" id="title-notify">
+                            <option value="schedule">Lịch học</option>
+                            <option value="exercise">Bài tập</option>
+                            <option value="chung">Chung</option>
+                        </select>
+                        
+                    </div>
+                    <div class="content-exercise">
+                        <p class="title-content-ex">
+                            Nội dung thông báo
+                        </p>
+                        <textarea name="content" id="place-content" cols="30" rows="7"></textarea>
+                    </div>
+                    <div class="btn-content">
+                        
+                        <input type="submit" value="Hoàn thành" class="btn-done" id="btn-done-notify">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="content-right col">
+            <div class="inf-class">
+                <p class="inf-heading">
+                    THÔNG TIN LỚP HỌC
+                </p>
+                <div class="name-class">
+                    <p class="name-title">Tên lớp:</p>
+                    <p class="name">Lớp TOEIC A</p>
+                </div>
+                <div class="purpose-class">
+                    <p class="purpose-title">Mục tiêu:</p>
+                    <p class="purpose">550+ TOEIC</p>
+                </div>
+                <ul class="list-action">
+                    <li id="notification"><img class="icon-like" src="./assets/img/like.png" alt=""><p>Thông báo</p>
+                        <i class="fa fa-bell icon-bell"></i>
+                    </li>
+                    <li id="exercise"><img class="icon-like" src="./assets/img/like.png" alt="">Bài tập</li>
+                    <li id="atendence"><img class="icon-like" src="./assets/img/like.png" alt=""><a href="./diem-danh.html">Điểm danh</a></li>
+                </ul>
+                <div class="btn-log-out">
+                    <button id="log-out-class">Đăng xuất lớp</button>
+                </div>
+            </div>
+            <div class="diem-danh">
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+                <button>10</button>
+                <button>11</button>
+                <button>12</button>
+                <button>13</button>
+                <button>14</button>
+                <button>15</button>
+                <button>16</button>
+                <button>17</button>
+                <button>18</button>
+                <button>19</button>
+                <button>20</button>
+                <button>21</button>
+                <button>22</button>
+                <button>23</button>
+                <button>24</button>
+                <button>25</button>
+                <button>26</button>
+                <button>27</button>
+                <button>28</button>
+                <button>29</button>
+                <button>30</button>
+
+            </div>
+        </div>
+    </div>
+    <script src="./assets/exercise.js"></script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+@media (min-width:768px) and (max-width:1023px) {
+    #nav{
+        height: 48px;
+    }
+    #nav .menu>li>a{
+        font-size: 10px;
+        padding: 16px 2px;
+    }
+    #nav .icon-down{
+        font-size: 5px;
+    }
+    #nav .menu>li>a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 11px;
+        padding: 20px 6px;
+        font-weight: 300;
+
+    }
+}
+@media (max-width:767px) {
+    .admin-inf{
+        display: none;
+    }
+    .user-inf img {
+        width: 17%;
+    }
+    #nav {
+        height: 35px;
+        padding-left: 12px;
+        padding-right: 0px;
+    }
+    .nav-menu{
+        position: relative;
+    }
+    .menu{
+        display: none;
+        font-size: 16px;
+        margin-top: 28px;
+        background-color: rgb(11, 24, 102);
+    }
+    .menu li a{
+        font-size: 16px;
+    }
+    #nav .menu-list li{
+        padding-left: 6px;
+    }
+    #nav .menu-list li a {
+        text-decoration: none;
+        color: #000;
+        line-height: 37px;
+        font-size: 13px;
+    }
+    
+    #nav .nav-menu{
+        width: 36%;
+    }
+    #mobile-menu-open{
+        display: inline;
+        position:relative;
+        font-size: 25px;
+        color: #fff;
+        left: 76%;
+        float: left;
+    }
+    #mobile-menu-close{
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    font-size: 25px;
+    color: #fff;
+    }
+    .search-nav{
+        width: 55%;
+        padding-left: 8%;
+    }
+    #nav .menu>li>a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 12px;
+        /* padding: 22px 10px; */
+        font-weight: 300;
+        padding: 6px 5px;
+        line-height: 24px;
+        display: block;
+    }
+    #nav .menu>li{
+        display: block;
+    }
+    
+}

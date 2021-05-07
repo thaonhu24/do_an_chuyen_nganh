@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../layout/header.css">
+    <link rel="stylesheet" href="../layout/footer.css">
+    <link rel="stylesheet" href="../layout/btn_top.css">
+    <link rel="stylesheet" href="../layout/btn-contact.css">
+    <link rel="stylesheet" href="../font/themify-icons/themify-icons.css">
+    <script src="https://use.fontawesome.com/9b42ba68a2.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="../layout/btn_top.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="../layout/header-responsive.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="header">
+        <div class="first-header">
+            <div class="header-admin">
+                <ul class="admin-inf">
+                    <li>
+                        <i class="icon-admin ti-settings"></i>
+                        Admin
+                    </li>
+                    <li>
+                        <img src="../image/phone-call.png" alt="" width="14px" height="14px">
+                        0379089474
+                    </li>
+                    <li>
+                        <i class="icon-admin ti-email"></i>
+                        anhngu4eng@gmail.com
+                    </li>
+                </ul>
+            </div>
+            <div class="heading-user">
+                <ul class="user-inf">
+                    <img src="../image/notification.png" alt="">
+                    <img src="../image/speech-bubble (2).png" alt="">
+                    <img src="../image/profile-user.png" alt="">
+                    <i class="icon-down-user ti-angle-down"></i>
+                </ul>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div id="nav">
+            <div class="img-nav col">
+                <img src="../image/Thiết kế không tên (4).png" alt="" class="nav-logo" >
+            </div>
+            <div class="search-nav col">
+                <img class="col icon-search" src="../image/magnifier.png" alt="">
+                <input class="col search-cell" type="text" placeholder="Tìm kiếm">
+            </div>
+            <div class="col nav-menu">
+                <ul class="menu">
+                    <li><a href="#">TRANG CHỦ</a> </li>
+                    <li><a href="#">
+                        GIỚI THIỆU
+                        <i class="icon-down ti-angle-down"></i>
+                        <div class="thirt-menu">
+                            <ul class="menu-list">
+                                <li><a href="#">Tuyển dụng</a></li>
+                                <li><a href="#">Hệ thống cơ sở</a></li>
+                                <li><a href="#">Đội ngũ giảng viên</a></li>
+                                <li><a href="#">Lịch khai giảng</a></li>
+                            </ul>
+                        </div></a> </li>
+                    <li><a href="#">HỌC VIÊN
+                        <i class="icon-down ti-angle-down"></i>
+                        <div class="thirt-menu">
+                            <ul class="menu-list">
+                                <li><a href="#">Vinh doanh học viên</a></li>
+                                <li><a href="#">Cảm nhận học viên</a></li>
+                                <li><a href="#">Hoạt động ngoại khóa</a></li>
+                            </ul>
+                        </div>
+                    </a> </li>
+                    <li><a href="">KHÓA HỌC
+                        <i class="icon-down ti-angle-down"></i>
+                        <div class="thirt-menu">
+                            <ul class="menu-list">
+                                <li><a href="#">Tiếng anh giao tiếp</a></li>
+                                <li><a href="#">TOEIC 2 kỹ năng</a></li>
+                                <li><a href="#">TOEIC 4 kỹ năng</a></li>
+                                <li><a href="#">IELTS</a></li>
+                            </ul>
+                        </div>
+                    </a></li>
+                    <li><a href="">THI THỬ</a></li>
+                    <li><a href="">TIỆN ÍCH</a></li>
+                    <li><a href="">LIÊN HỆ</a></li>
+                </ul>
+                <i id= "mobile-menu-open"class="btn-menu ti-menu"></i>
+                <i id= "mobile-menu-close"class="btn-menu ti-close"></i>
+            </div>
+        </div>
+    </div>
+    <a class="btn-top" href="javascript:void(0);" title="Top" style="display: inline;"></a>
+    <a class="btn-chat"  title="Chat" style="display: inline;"></a>
+    <!----------header--------------->
+    <!--dialog đăng bài-->
+    <div class="dialog-post-place" id="dialog-post">
+        <form action="" id="form-post">
+            <p class="heading">Tạo bài viết</p>
+            <a class="close" href="#"><img src="./assets/img/cancel.png" alt="" class="img-close"></a>
+            <div class="area-post">
+                <textarea class="area-post-text" placeholder="Bạn đang nghĩ gì??" name="post" id="post" cols="30" rows="7"></textarea>
+                <div class="img-post-area">
+                    
+                    <div id="previewImg">
+                        <div class="abcd">
+                            <img src="" alt="" class="img-old-post">
+                            <i class="fa fa-times delete"  ></i>
+                        </div>                    
+                    </div>
+                </div>
+            </div>
+            <div id="btn">
+                <div class="btn-post">
+                    <input type="submit" value="Đăng" id="button-post">
+                </div>
+                <div class="img-post">
+                    <img class="hinh" type="image" src="./assets/img/photo.png" />
+                    <input style="display: none" type='file' id="files" name="image" multiple="multiple" />
+                </div>
+            </div>
+        </div>
+        </form>
+    <!-----dialog chỉnh sửa post-------------------->
+    
+    <!--dialog chỉnh sửa chi tiết-->
+    <div class="dialog-edit-detail" id="dialog-edit">
+        <form action="" id="form-edit-inf">
+            <p class="heading">Chỉnh sửa chi tiết</p>
+            <a class="close" href="#"><img src="./assets/img/cancel.png" alt="" class="img-close"></a>
+            <div class="place-edit-detail">
+                <div class="edt">
+                    <p>Giới tính</p>
+                    <input type="radio" name="sex" id="male" value="Nam">
+                    <label for="male">Nam</label>
+                    <input type="radio" name="sex" id="female" value="Nu">
+                    <label for="female">Nữ</label>
+                </div>
+                <div class="edt">
+                    <p>Email</p>
+                    <input class="input-inf" type="email" name="edt-email" id="edt-email">
+                </div>
+                <div class="edt">
+                    <p>Số điện thoại</p>
+                    <input class="input-inf" type="text" name="edt-email" id="edt-sdt">
+                </div>
+                <div class="edt">
+                    <p>Nơi ở</p>
+                    <input class="input-inf" type="text" name="edt-location" id="edt-location">
+                </div>
+                <input type="submit" value="Lưu" class="btn-save-edt-detail">
+            </div>
+        </form>
+        
+    </div>
+    <div id="content">
+        <div class="poster">
+            <img src="./assets/img/poster.png" alt="" class="img-poster">
+            <div class="profile">
+                <div class="img-frame">
+                    <img src="./assets/img/profile.jpg" alt="" class="img-profile">
+                </div>
+                <div class="icon-camera">
+                    <img class="icon-edt-img-profile" src="./assets/img/photo-camera-interface-symbol-for-button.png" alt="">
+                    <input style="display: none" type='file' id="files-img-profile" name="image" multiple="multiple" />
+                </div>
+                <h2 class="name">Thảo Như</h2>
+            </div>
+        </div>
+        <div id="main-content">
+            <div class="col-inf col-res col">
+                <div class="detail">
+                    <p class="header">Giới thiệu</p>
+                    <ul class="inf">
+                        <li><img src="assets/img/sex.png"><p>Giới tính: Nữ </p></li>
+                        <li><img src="assets/img/email.png"><p>Email: thaonhu1240@mail.com </p></li>
+                        <li><img src="assets/img/telephone.png"><p>Điện thoại: 0379089474</p></li>
+                        <li><img src="assets/img/home.png"><p>Sống tại Hồ Chí Minh</p></li>
+                    </ul>
+                    <button class="btn-edit-detail-profile">Chỉnh sửa chi tiết</button>
+                </div>
+                <div class="link-forum">
+                    <a href="#">Diễn đàn thảo luận</a>
+                </div>
+            </div>
+            <div class="col-status col-res col">
+                <div class="new-post">
+                    <h3>Bài viết</h3>
+                    <div class="update-post">
+                        <div class="img-cell col">
+                            <img src="./assets/img/DSC03633.JPG" alt="">
+                        </div>
+                        <div class="place-update col">
+                            <button class="update-button">Cập nhật bài viết</button>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <table class="table-post" style="margin-right: 0;">
+                    <tr class="row-post" id="1">
+                        <td>
+    
+                            <div class="old-post">
+                                <div class="inf-user">
+                                    <div class="img-cell col">
+                                        <img src="./assets/img/DSC03633.JPG" alt="">
+                                    </div>
+                                    <div class="name-inf col">
+                                        <h3>Thảo Như</h3>
+                                        <p>1 giờ</p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <img src="./assets/img/menu (2).png" alt="" class="img-edt">
+                                <div id="edt-post">
+                                    <ul class="list-post">
+                                        <li class="button-edit">Chỉnh sửa</li>
+                                        <li class="button-delete">Xóa</li>
+                                    </ul>
+                                </div>
+                                <p class="p-status" id="status-area">à nhon xê ô</p>
+                                <div class="img-post">
+                                    <img id='3-0' class="img-old-post-update" src="./assets/img/1-0.png" alt="">
+                                    <img id='3-1' class="img-old-post-update" src="./assets/img/1-0.png" alt="">
+                                </div>
+                                <div class="sl-like-cmt">
+                                    <div class="icon-like" >
+                                        <img src="./assets/img/like (2).png" alt="">
+                                        <div class="sl-like">
+                                            <p id="number-like">1</p>
+                                        </div>
+                                        <div class="sl-cmt">
+                                            <p>0 bình luận</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="button-like-cmt">
+                                    <button class="btn-like col"> <i class="fa fa-thumbs-o-up like"></i> Thích</button>
+                                    <button class="btn-cmt col"><img src="./assets/img/speech-bubble (2).png" alt="">Bình luận</button>
+                                </div>
+                                <table class="view-comment">
+                                    <tr>
+                                        <td>
+                                            <div class="cmt-of-everyone">
+                                                <div id="userOne" class="img-user-cmt col">
+                                                    <img src="./assets/img/gai.JPG" alt="">
+                                                </div>
+                                                <div class="comment col">
+                                                    <p class="name">Tam Tam</p>
+                                                    <p class="content-comment">Bài tập khó quá</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="cmt-of-everyone">
+                                                <div id="userOne" class="img-user-cmt col">
+                                                    <img src="./assets/img/gai.JPG" alt="">
+                                                </div>
+                                                <div class="comment col">
+                                                    <p class="name">Tam Tam</p>
+                                                    <p class="content-comment">Bài tập khó quá</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        
+                                    </tr>
+                                </table>
+                                <div class="up-cmt">
+                                    <div class="img-user-cmt col">
+                                        <img src="./assets/img/DSC03633.JPG" alt="">
+                                    </div>
+                                    <div class="place-cmt col">
+                                        <input id="cmt" type="text" placeholder="Cập nhật bài viết">
+                                    </div>
+                                    <div class="img-choose-cmt col">
+                                        <img class="img-post-cmt" src="./assets/img/photo.png" alt="">
+                                        <input style="display: none" type='file' id="files-post-cmt" name="image" multiple="multiple" />
+                                    </div>
+                                    <span id="img-cmt"></span>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="row-post" id="2">
+                        <td>
+                            <input type="text" id="recordid" name="recordid" value="1" style="display:none" />
+
+                            <div class="old-post">
+                                <div class="inf-user">
+                                    <div class="img-cell col">
+                                        <img src="./assets/img/DSC03633.JPG" alt="">
+                                    </div>
+                                    <div class="name-inf col">
+                                        <h3>Thảo Như</h3>
+                                        <p>1 giờ</p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <img src="./assets/img/menu (2).png" alt="" class="img-edt">
+                                <div id="edt-post">
+                                    <ul class="list-post">
+                                        <li class="button-edit">Chỉnh sửa</li>
+                                        <li class="button-delete">Xóa</li>
+                                    </ul>
+                                </div>
+                                <p class="p-status" id="status-area">à nhon xê ô</p>
+                                <div class="img-post">
+                                    <img class="img-old-post-update" src="./assets/img/1-0.png" alt="">
+                                </div>
+                                <div class="sl-like-cmt">
+                                    <div class="icon-like" >
+                                        <img src="./assets/img/like (2).png" alt="">
+                                        <div class="sl-like">
+                                            <p id="number-like">1</p>
+                                        </div>
+                                        <div class="sl-cmt">
+                                            <p>0 bình luận</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="button-like-cmt">
+                                    <button class="btn-like col"> <i class="fa fa-thumbs-o-up like"></i> Thích</button>
+                                    <button class="btn-cmt col"><img src="./assets/img/speech-bubble (2).png" alt="">Bình luận</button>
+                                </div>
+                                <table class="view-comment">
+                                    <tr>
+                                        <td>
+                                            <div class="cmt-of-everyone">
+                                                <div id="userOne" class="img-user-cmt col">
+                                                    <img src="./assets/img/gai.JPG" alt="">
+                                                </div>
+                                                <div class="comment col">
+                                                    <p class="name">Tam Tam</p>
+                                                    <p class="content-comment">Bài tập khó quá</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="cmt-of-everyone">
+                                                <div id="userOne" class="img-user-cmt col">
+                                                    <img src="./assets/img/gai.JPG" alt="">
+                                                </div>
+                                                <div class="comment col">
+                                                    <p class="name">Tam Tam</p>
+                                                    <p class="content-comment">Bài tập khó quá</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        
+                                    </tr>
+                                </table>
+                                <div class="up-cmt">
+                                    <div class="img-user-cmt col">
+                                        <img src="./assets/img/DSC03633.JPG" alt="">
+                                    </div>
+                                    <div class="place-cmt col">
+                                        <input id="cmt" type="text" placeholder="Cập nhật bài viết">
+                                    </div>
+                                    <div class="img-choose-cmt col">
+                                        <img class="img-post-cmt" src="./assets/img/photo.png" alt="">
+                                        <input style="display: none" type='file' id="files-post-cmt" name="image" multiple="multiple" />
+                                    </div>
+                                    <span id="img-cmt"></span>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                
+                <!--------->
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>  
+    <script type="text/javascript" src="./assets/profile.js"></script> 
+</body>
+</html>

@@ -1,0 +1,69 @@
+@font-face{
+    src:url(../../../font/Bo-Font-Full/font-work-sans/WorkSans-Regular.otf);
+    font-family: WorkSans;
+}
+@font-face{
+    src:url(../../../font/Bo-Font-Full/font-work-sans/WorkSans-Bold.otf);
+    font-family: WorkSansB;
+}
+html{
+    font-family: WorkSans;
+}
+.col{
+    float: left
+}
+.two-col{
+    width: 50%;
+}
+.three-col{
+    width: 33.33333%;
+    display: inline-block;
+}
+.clear{
+    clear: both;
+}
+table{
+    width: 90%;
+    margin: 2% auto;
+}
+.heading{
+    font-size: 40px;
+    font-weight: 600;
+    
+    text-align: center;
+}
+#content{
+    
+}
+.day-update-exercise .date-up-ex{
+    font-family: WorkSans;
+    font-size: 30px;
+    color: rgb(0, 12, 124);
+    display: inline;
+}
+.day-update-exercise .date-up-ex{
+    margin: 0;
+}
+.dealine-ex{
+    display: inline;
+}
+.dealine-ex p{
+    float: right;
+    margin-left: 20px;
+}
+.exercise-file img{
+    width: 24px;
+}
+.name-file{
+display: inline;
+}
+.inf-exercise{
+    font-size: 17px;
+    font-weight: 600;
+}
+table{
+    border: rgb(173, 173, 173) 1px solid;
+}
+td {
+    border-bottom: rgb(173, 173, 173) 1px solid;
+}

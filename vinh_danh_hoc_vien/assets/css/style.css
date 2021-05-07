@@ -1,0 +1,165 @@
+@font-face{
+    src:url(../../../font/Bo-Font-Full/Unicode/palab.ttf);
+    font-family: palab;
+}
+#content {
+    margin-top: 160px;
+}
+#main-content{
+    margin: 20px 100px;
+}
+.content-left{
+    width: 75%;
+    padding-right: 26px;
+}
+.col-banner{
+    width: 60%;
+    padding-bottom: 16%;
+    border-bottom: #ccc 2px solid;
+    margin-bottom: 40px;
+}
+.content-left .adv-col{
+    width: 40%;
+    padding-left: 16px;
+}
+.content-left .adv-col h3{
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+.content-left .adv-col img{
+    width: 100%;
+    margin-bottom: 10px;
+    height: 150px;
+}
+#body-content{
+    margin-top: 40px;
+}
+#body-content .img-col{
+    width: 30%;
+    padding-right: 30px;
+}
+#body-content .img-col img{
+    width: 100%;
+    height: 120px;
+}
+#body-content .inf-col{
+    width: 70%;
+}
+#body-content .inf-col h3{
+    font-family: palab;
+}
+#body-content .inf-col p{
+    font-size: 14px;
+}
+#body-content .list-member{
+    margin-bottom: 20px;
+}
+/*content-right*/
+#content .content-right{
+    width: 25%;
+}
+#content .content-right .img-adv{
+    width: 100%;
+
+}
+/*Content right img hover*/
+#content .img-adv img{
+    width: 100%;
+
+}
+#content .img-adv{
+    position: relative;
+    margin: 10px 0px;
+}
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color:rgba(241, 238, 238, 0.5);
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+}
+   
+.img-adv:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
+#content .content-right img{
+    width: 100%;
+}
+.link-heading h3{
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(12, 30, 112);
+}
+.list-link{
+    padding-left: 20px;
+}
+.list-link li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(87, 10, 10);
+}
+#form{
+    padding: 60px 80px;
+    text-align: center;
+    padding-bottom: 80px;
+    margin-bottom: 60px;
+
+    position: relative;
+}
+#form .form-col{
+    margin-top: 40px;
+}
+#form .form-header h2{
+    font-size: 48px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 8px;
+    color: rgb(7, 8, 85);
+}
+.form-header p{
+    font-size: 14px;
+}
+.col-left  input {
+    width: 95%;
+    margin: 12px 24px;
+    padding: 8px 8px;
+    border-radius: 5px;
+    border: #000 1px solid;
+    background-color: #fff;
+}
+.form-col button{
+    padding: 4px 16px;
+    border: none;
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+    font-weight: 700;
+    border-radius: 5px;
+}
+#form .col-right{
+    padding-left: 50px;
+}
+#form .col-right img {
+    width: 100%;
+    border: #000 1px solid;
+}
+/*mờ nền*/
+.form-background {
+    position: relative;
+  }
+  .form-background::before {
+    background-position: 30% 20% ;
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-image: url('../img/cuon-so-trang.jpg');
+    filter: brightness(80%);
+  }
+  #form {
+    /* Sử dụng position relative sẽ làm cho nó xếp chồng lên trên thẻ ::before */
+    position: relative;
+  }

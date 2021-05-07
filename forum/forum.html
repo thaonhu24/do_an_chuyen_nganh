@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../layout/header.css">
+    <link rel="stylesheet" href="../layout/footer.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="../font/themify-icons/themify-icons.css">
+    <script src="https://use.fontawesome.com/9b42ba68a2.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="header">
+        <div class="first-header">
+            <div class="header-admin">
+                <ul class="admin-inf">
+                    <li>
+                        <i class="icon-admin ti-settings"></i>
+                        Admin
+                    </li>
+                    <li>
+                        <img src="../image/phone-call.png" alt="" width="14px" height="14px">
+                        0379089474
+                    </li>
+                    <li>
+                        <i class="icon-admin ti-email"></i>
+                        anhngu4eng@gmail.com
+                    </li>
+                </ul>
+            </div>
+            <div class="heading-user">
+                <ul class="user-inf">
+                    <img src="../image/notification.png" alt="">
+                    <img src="../image/speech-bubble (2).png" alt="">
+                    <img src="../image/profile-user.png" alt="">
+                    <i class="icon-down-user ti-angle-down"></i>
+                </ul>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div id="nav">
+            <div class="img-nav col">
+                <img src="../image/Thiết kế không tên (4).png" alt="" class="nav-logo" >
+            </div>
+            <div class="search-nav col">
+                <img class="col icon-search" src="../image/magnifier.png" alt="">
+                <input class="col search-cell" type="text" placeholder="Tìm kiếm">
+            </div>
+            <div class="col nav-menu">
+                <ul class="menu">
+                    <li><a href="#">TRANG CHỦ</a> </li>
+                    <li><a href="#">
+                        GIỚI THIỆU
+                        <i class="icon-down ti-angle-down"></i>
+                        <div class="thirt-menu">
+                            <ul class="menu-list">
+                                <li><a href="#">Tuyển dụng</a></li>
+                                <li><a href="#">Hệ thống cơ sở</a></li>
+                                <li><a href="#">Đội ngũ giảng viên</a></li>
+                                <li><a href="#">Lịch khai giảng</a></li>
+                            </ul>
+                        </div></a> </li>
+                    <li><a href="#">HỌC VIÊN
+                        <i class="icon-down ti-angle-down"></i>
+                        <div class="thirt-menu">
+                            <ul class="menu-list">
+                                <li><a href="#">Vinh doanh học viên</a></li>
+                                <li><a href="#">Cảm nhận học viên</a></li>
+                                <li><a href="#">Hoạt động ngoại khóa</a></li>
+                            </ul>
+                        </div>
+                    </a> </li>
+                    <li><a href="">KHÓA HỌC
+                        <i class="icon-down ti-angle-down"></i>
+                        <div class="thirt-menu">
+                            <ul class="menu-list">
+                                <li><a href="#">Tiếng anh giao tiếp</a></li>
+                                <li><a href="#">TOEIC 2 kỹ năng</a></li>
+                                <li><a href="#">TOEIC 4 kỹ năng</a></li>
+                                <li><a href="#">IELTS</a></li>
+                            </ul>
+                        </div>
+                    </a></li>
+                    <li><a href="">THI THỬ</a></li>
+                    <li><a href="">TIỆN ÍCH</a></li>
+                    <li><a href="">LIÊN HỆ</a></li>
+                </ul>
+                <i id= "mobile-menu-open"class="btn-menu ti-menu"></i>
+                <i id= "mobile-menu-close"class="btn-menu ti-close"></i>
+            </div>
+        </div>
+    </div>
+    <a class="btn-top" href="javascript:void(0);" title="Top" style="display: inline;"></a>
+    <a class="btn-chat"  title="Chat" style="display: inline;"></a>
+        <!--dialog đăng bài-->
+        <div class="dialog-post-place" id="dialog-post">
+            <form action="" class="form-post-page">
+                <p class="heading">Tạo bài viết</p>
+                <a class="close" href="#"><img src="./assets/img/cancel.png" alt="" class="img-close"></a>
+                <div class="area-post">
+                    <textarea class="area-post-text" placeholder="Bạn đang nghĩ gì??" name="post" id="post" cols="30" rows="7">
+                        
+                    </textarea>
+                    <div class="img-post-area">
+                        <div id="previewImg">
+                            <div class="abcd">
+                                <img src="" alt="" class="img-old-post">
+                                <i class="fa fa-times delete"  ></i>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div id="btn">
+                    <div class="btn-post">
+                        <input class="button-post" type="submit" value="Đăng">
+                    </div>
+                    <div class="img-post">
+                        <img class="hinh" type="image" src="./assets/img/photo.png" />
+                        <input style="display: none" type='file' id="files" name="image" multiple="multiple" />
+                    </div>
+                </div>
+            </form>
+        </div>
+        
+    <!------------------------------------------------------->
+    <div id="content">
+        <div class="col-left col col-res">
+            <p class="news">
+                Tin tức
+            </p>
+            <ul class="list-news">
+                <li><a href="">Trung tâm anh ngữ 4Eng tặng quà cho học viên điểm cao</a></li>
+                <li><a href="">Trung tâm anh ngữ 4Eng giảm học phí trong tháng 3</a></li>
+                <li><a href="">Trung tâm anh ngữ 4Eng thông báo lịch học</a></li>
+                <li><a href="">Trung tâm anh ngữ 4Eng thông báo nghỉ dịch</a></li>
+            </ul>
+        </div>
+        <div class="col-center col col-res">
+            <div class="new-post">
+                <h3>Bài viết</h3>
+                <div class="update-post">
+                    <div class="img-cell col">
+                        <img src="./assets/img/DSC03633.JPG" alt="">
+                    </div>
+                    <div class="place-update col">
+                        <button class="update-button">Cập nhật bài viết</button>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <table class="table-post" style="margin-right: 0;">
+                <tr class="row-post">
+                    <td>
+                        <form action="" id="post-one">
+
+                            <div id="post1" class="old-post">
+                                <div class="inf-user">
+                                    <div class="img-cell col">
+                                        <img src="./assets/img/gai.jpg" alt="">
+                                    </div>
+                                    <div class="name-inf col">
+                                        <h3>Tam Tam</h3>
+                                        <p>1 giờ</p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <img src="./assets/img/visibility.png" alt="" class="img-hide">
+                                
+                                <p class="p-status" id="status-area">à nhon xê ô</p>
+                                <div class="img-post">
+                                    <img class="img-old-post-update" src="./assets/img/1-0.png" alt="">
+                                </div>
+                                <div class="sl-like-cmt">
+                                    <div class="icon-like" >
+                                        <img src="./assets/img/like (2).png" alt="">
+                                        <div class="sl-like">
+                                            <p id="number-like">1</p>
+                                        </div>
+                                        <div class="sl-cmt">
+                                            <p>0 bình luận</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="button-like-cmt">
+                                    <button class="btn-like col"> <i class="fa fa-thumbs-o-up like"></i> Thích</button>
+                                    <button class="btn-cmt col"><img src="./assets/img/speech-bubble (2).png" alt="">Bình luận</button>
+                                    <button class="btn-share col"><img src="./assets/img/share.png" alt="">Chia sẻ</button>
+                                </div>
+                                <table class="view-comment">
+                                    <tr>
+                                        <td>
+                                            <div class="cmt-of-everyone">
+                                                <div id="userOne" class="img-user-cmt col">
+                                                    <img src="./assets/img/gai.JPG" alt="">
+                                                </div>
+                                                <div class="comment col">
+                                                    <p class="name">Tam Tam</p>
+                                                    <p class="content-comment">Bài tập khó quá</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="cmt-of-everyone">
+                                                <div id="userOne" class="img-user-cmt col">
+                                                    <img src="./assets/img/gai.JPG" alt="">
+                                                </div>
+                                                <div class="comment col">
+                                                    <p class="name">Tam Tam</p>
+                                                    <p class="content-comment">Bài tập khó quá</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        
+                                    </tr>
+                                </table>
+                                <div class="up-cmt">
+                                    <div class="img-user-cmt col">
+                                        <img src="./assets/img/DSC03633.JPG" alt="">
+                                    </div>
+                                    <div class="place-cmt col">
+                                        <input id="cmt" type="text" placeholder="Cập nhật bình luận">
+                                    </div>
+                                    <div class="img-choose-cmt col">
+                                        <img class="img-post-cmt" src="./assets/img/photo.png" alt="">
+                                        <input style="display: none" type='file' id="files-post-cmt" name="image" multiple="multiple" />
+                                    </div>
+                                    <span id="img-cmt"></span>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                        </form>
+                    </td>
+                </tr>
+                <tr class="row-post">
+
+                </tr>
+            </table>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <script type="text/javascript" src="./assets/forum.js"></script> 
+</body>
+</html>

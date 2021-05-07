@@ -66,6 +66,9 @@
     }
 }
 @media (max-width:767px){
+    .col-resp{
+        width: 100% !important;
+    }
     #header .header-search{
         display: none;
     }
@@ -79,6 +82,16 @@
         display: none;
         float: left;
     }
+    #nav .nav-menu>li>a {
+        display: block;
+        padding-right: 80px;
+        padding-left: 12px;
+        padding-top: 0px;
+        padding-bottom: 6px;
+}
+#nav .nav-menu>li{
+    padding-right: 0px !important;
+}
     #header .header-button{
         margin-right: 0px;
     }
@@ -113,9 +126,7 @@
         width: 100%;
     }
    
-    .two-col{
-        width: 100%;
-    }
+    
     #content .heading-introduce h3{
         margin-left: 24px;
     }

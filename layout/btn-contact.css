@@ -1,0 +1,14 @@
+.btn-chat {
+    background-image: url(../image/chat.png);
+    background-repeat: no-repeat;
+    border: medium none;
+    bottom: 75px;
+    cursor: pointer;
+    height: 66px;
+    outline: medium none;
+    padding: 0;
+    position: fixed;
+    right: 20px;
+    width: 66px;
+    z-index: 9999;
+}

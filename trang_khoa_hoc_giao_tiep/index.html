@@ -7,6 +7,7 @@
     <title>Khóa học giao tiếp</title><link rel="icon" href="./assets/img/150848631_561398811502228_3562828199628117735_n (1).png" type="image/x-icon" />
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="../layout/header.css">
     <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
     <link rel="stylesheet" href="./assets/font/icofont/icofont.css">
     <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.2-web/css/fontawesome.min.css">
@@ -14,73 +15,84 @@
 <body>
     <!--Phần header-->
     <div id="header">
-        <!--phần trên của header-->
         <div class="first-header">
-            <div class="left-header">
-                <img src="./assets/img/150848631_561398811502228_3562828199628117735_n (1).png" alt="logo" class="logo-header">
-                <div class="clear"></div>
+            <div class="header-admin">
+                <ul class="admin-inf">
+                    <li>
+                        <i class="icon-admin ti-settings"></i>
+                        Admin
+                    </li>
+                    <li>
+                        <img src="./assets/img/phone-call.png" alt="" width="14px" height="14px">
+                        0379089474
+                    </li>
+                    <li>
+                        <i class="icon-admin ti-email"></i>
+                        anhngu4eng@gmail.com
+                    </li>
+                </ul>
             </div>
-            <div class="header-search">
-                <input class="search-place" type="text" name="search" id="search-cell" placeholder="Tìm kiếm" size="10" >
-                <button class="search-button"><i class="icon-search ti-search"></i></button>
-                <div class="clear"></div>
+            <div class="heading-user">
+                <ul class="user-inf">
+                    <img src="./assets/img/notification.png" alt="">
+                    <img src="./assets/img/speech-bubble (2).png" alt="">
+                    <img src="./assets/img/profile-user.png" alt="">
+                    <i class="icon-down-user ti-angle-down"></i>
+                </ul>
             </div>
-            <div class="header-button">
-                <div class=" button-sign-up">
-                    <button class="btn-sign-up">Đăng kí</button>
-                </div>
-                <div class=" button-sign-in">
-                    <button class="btn-sign-in">Đăng nhập</button>
-                </div>
-            </div>
+            <div class="clear"></div>
         </div>
-        <!--end phần trên header-->
-        <!--Phần thanh điều hướng-->
         <div id="nav">
-            <ul id="nav-menu-list" class="nav-menu">
-                <li><a href="#">Trang chủ</a></li>
-                <li><a href="#">Giới thiệu
-                    <i class="icon-down ti-angle-down"></i>
-                    <div class="thirt-menu">
-                        <ul class="menu-list">
-                            <li><a href="#">Tuyển dụng</a></li>
-                            <li><a href="#">Hệ thống cơ sở</a></li>
-                        </ul>
-                    </div>
-                </a></li>
-                <li><a href="#">Đội ngũ giảng viên</a></li>
-                <li><a href="#">Học viên
-                    <i class="icon-down ti-angle-down"></i>
-                    <div class="thirt-menu">
-                        <ul class="menu-list">
-                            <li><a href="#">Vinh danh học viên</a></li>
-                            <li><a href="#">Cảm nhận học viên</a></li>
-                            <li><a href="#">Hoạt động ngoại khóa</a></li>
-                        </ul>
-                    </div>
+            <div class="img-nav col">
+                <img src="./assets/img/Thiết kế không tên (4).png" alt="" class="nav-logo" >
+            </div>
+            <div class="search-nav col">
+                <img class="col icon-search" src="./assets/img/magnifier.png" alt="">
+                <input class="col search-cell" type="text" placeholder="Tìm kiếm">
+            </div>
+            <div class="col nav-menu">
+                <ul class="menu">
+                    <li><a href="#">TRANG CHỦ</a> </li>
+                    <li><a href="#">
+                        GIỚI THIỆU
+                        <i class="icon-down ti-angle-down"></i>
+                        <div class="thirt-menu">
+                            <ul class="menu-list">
+                                <li><a href="#">Tuyển dụng</a></li>
+                                <li><a href="#">Hệ thống cơ sở</a></li>
+                                <li><a href="#">Đội ngũ giảng viên</a></li>
+                                <li><a href="#">Lịch khai giảng</a></li>
+                            </ul>
+                        </div></a> </li>
+                    <li><a href="#">HỌC VIÊN
+                        <i class="icon-down ti-angle-down"></i>
+                        <div class="thirt-menu">
+                            <ul class="menu-list">
+                                <li><a href="#">Vinh doanh học viên</a></li>
+                                <li><a href="#">Cảm nhận học viên</a></li>
+                                <li><a href="#">Hoạt động ngoại khóa</a></li>
+                            </ul>
+                        </div>
+                    </a> </li>
+                    <li><a href="">KHÓA HỌC
+                        <i class="icon-down ti-angle-down"></i>
+                        <div class="thirt-menu">
+                            <ul class="menu-list">
+                                <li><a href="#">Tiếng anh giao tiếp</a></li>
+                                <li><a href="#">TOEIC 2 kỹ năng</a></li>
+                                <li><a href="#">TOEIC 4 kỹ năng</a></li>
+                                <li><a href="#">IELTS</a></li>
+                            </ul>
+                        </div>
                     </a></li>
-                <li><a href="#">Lịch khai giảng</a></li>
-                <li><a href="#">Khóa học
-                    <i class="icon-down ti-angle-down"></i>
-                    <div class="thirt-menu">
-                        <ul class="menu-list">
-                            <li><a href="#">Tiếng anh giao tiếp</a></li>
-                            <li><a href="#">TOEIC 2 kỹ năng</a></li>
-                            <li><a href="#">TOEIC 4 kỹ năng</a></li>
-                            <li><a href="#">IELTS</a></li>
-                        </ul>
-                    </div>
-                </a></li>
-                <li><a href="#">Thi thử</a></li>
-                <li><a href="#">Bài tập lớp</a></li>
-                <li><a href="#">Tiện ích</a></li>
-                <li><a href="#">Liên hệ</a></li>
-                <li><a href="#">Cửa hàng</a></li>
-            </ul>
-            <i id= "mobile-menu-open"class="btn-menu ti-menu"></i>
-        <i id= "mobile-menu-close"class="btn-menu ti-close"></i>
+                    <li><a href="">THI THỬ</a></li>
+                    <li><a href="">TIỆN ÍCH</a></li>
+                    <li><a href="">LIÊN HỆ</a></li>
+                </ul>
+                <i id= "mobile-menu-open"class="btn-menu ti-menu"></i>
+                <i id= "mobile-menu-close"class="btn-menu ti-close"></i>
+            </div>
         </div>
-        <!--End thanh điều hướng-->
     </div>
     <!--End header-->
     <!--Begin content-->
@@ -98,12 +110,12 @@
                 <h3>CAM KẾT ĐẠT 450 - 500 TOEIC BẰNG VĂN BẢN </h3>
             </div>
             <div class="introduce-body">
-                <div class="col tow-col video-introduce">
+                <div class="col col-resp two-col video-introduce">
                     <iframe class="video" width="560" height="288" src="https://www.youtube.com/embed/4Pw-Y_ANuwQ" 
                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                     allowfullscreen></iframe>
                 </div>
-                <div class="col two-col content-introduce">
+                <div class="col col-resp two-col content-introduce">
                     <ul class="list-introduce">
                         <li class="i-member">
                             <i class=" col icon-introduce ti-desktop"></i>
@@ -182,7 +194,7 @@
     <!--end giới thiệu-->
     <!--form đăng kí-->
     <div class="form-sign-up">
-            <div class="col two-col form">
+            <div class="col  two-col col-resp form">
                 <h2>ĐĂNG KÍ TƯ VẤN</h2>
                 <div class="form-text">
                     <input type="text" name="name" class="form-sign-up-text" placeholder="Họ và tên">
@@ -198,7 +210,7 @@
                 </div>
                 <input type="submit" value="GỬI" class="sent-btn">
             </div>
-            <div class="col two-col location">
+            <div class="col two-col col-resp location">
                 <h2>VỊ TRÍ</h2>
                 <img src="./assets/img/unnamed (1).jpg" alt="Vị trí" class="img-location">
             </div>

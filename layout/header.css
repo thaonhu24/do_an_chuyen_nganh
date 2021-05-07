@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family:Helvetica,Arial, sans-serif;
+}
+.col{
+    float: left
+}
+.two-col{
+    width: 50%;
+}
+.three-col{
+    width: 33.33333%;
+    display: inline-block;
+}
+.clear{
+    clear: both;
+}
+#header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+
+}
+.first-header {
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 13px;
+    background-color: #fff;
+}
+#header .header-admin{
+    float: left;
+}
+#header .admin-inf li{
+    font-size: 13px;
+    color: rgb(172, 170, 170);
+    display: inline;
+    padding-right: 6px;
+}
+.user-inf img{
+    width: 25%;
+}
+.heading-user{
+    float: right;
+}
+.icon-down-user{
+    color: rgb(0, 7, 70);
+    font-size: 14px;
+}
+#nav {
+    height: 62px;
+    background-color: rgb(11, 31, 119);
+    
+    padding: 0 8%;
+}
+#nav .img-nav{
+    width: 9%;
+    height: 100%;
+    
+}
+#nav img{
+    width: 100%;
+    height: 100%;
+}
+.search-nav{
+    width: 20%;
+    padding-left: 4%;
+    margin-top:2%;
+}
+#nav .icon-search {
+    width: 10%;
+    padding-right: 2%;
+}
+#nav .search-cell{
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: #ccc 1px solid;
+    outline: none;
+    color: #ccc;
+}
+#nav .nav-menu{
+    width: 68%;
+    padding-top: 2%;
+    padding-left: 16px;
+}
+
+.menu>li {
+    display: inline-block;
+   
+}
+#nav .menu>li>a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    padding: 22px 10px;
+    font-weight: 300;
+}
+.menu>li:hover>a{
+    background-color: rgb(12, 58, 128);
+}
+#nav .icon-down{
+    font-size: 10px;
+}
+#nav .nav-menu .menu-list{
+    position:absolute;    
+    width: 180px;
+    background-color: #ccc;
+    color: #000;
+}
+#nav .nav-menu .menu-list>li {
+    display: block;
+    font-size: 13px;
+}
+#nav .menu-list li a{
+    text-decoration: none;
+    color: #000;
+    line-height: 42px;
+}
+
+#nav .menu-list li:hover,
+#nav .menu-list li:hover a
+{
+    background-color: rgb(12, 58, 128);
+    color: #fff;
+}
+#nav .menu-list li{
+    padding-top: 3px;
+    padding-bottom: 5px;
+    padding-left: 12px;
+    padding-right: 6px;
+    line-height: 12px;
+}
+#nav .menu-list{
+    box-shadow: 0 0 10px rgba(13, 7, 99, 0.3);
+}
+#nav .nav-menu .thirt-menu{
+    display: block;
+    position:absolute;
+    z-index: 1;
+    display: none;
+}
+#nav li:hover .thirt-menu{
+    display: block;
+}
+.btn-menu{
+    display: none;
+}

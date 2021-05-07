@@ -1,0 +1,37 @@
+@media (min-width:768px) and (max-width:1024px) {
+
+    #footer .download{
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    #content {
+        margin: 40px 52px;
+        top: 81px;
+    }
+    .location-table {
+        padding: 20px 13px;
+    }
+    .loc-left ul li {
+        font-size: 15px;
+    }
+    
+}
+@media (max-width:767px){
+    #content{
+        top:76px;    
+        margin: 40px 26px;
+    }
+    /* Đưa cột về 100%*/
+    .col-res{
+        width: 100% !important;
+    }
+    .location-table {
+        padding: 20px 24px;
+    }
+    #content .content-right {
+        padding-left:0;
+    }
+    #footer .follow-me{
+        padding-left: 60px;
+    }
+}

@@ -1,0 +1,160 @@
+/*add phông chữ*/
+@font-face{
+    src:url(../../../font/Bo-Font-Full/Unicode/UVNBanhMi.TTF);
+    font-family: BanhMi;
+}
+
+#content{
+    margin: 40px 80px;
+    position: relative;
+    top: 120px;
+}
+#content .content-left{
+    display: block;
+    width: 70%;
+    padding-right: 2%;
+}
+#content .content-left h2{
+    color: rgb(133, 7, 7);
+    border-bottom: rgb(189, 163, 163) 2px solid;
+    padding-bottom: 4px;
+}
+.content-left h3{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 24px;
+    color: rgb(10, 12, 148);
+    font-family: BanhMi;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+.loc-left p{
+    font-size: 20px;
+    color: rgb(201, 50, 12);
+    font-weight: 300;
+    padding: 8px 0;
+}
+.loc-left ul{
+    margin-left: 20px;
+    margin-bottom: 14px;
+}
+.loc-left ul li{
+    padding: 4px 0;
+}
+.icon-loc{
+    font-size: 18px;
+}
+.location-table{
+    background-color: rgb(238, 238, 238);
+    padding: 20px 60px;
+    border: rgb(201, 117, 117) 1px solid;
+}
+/*------------------------content-right*/
+#content .col-right h3{
+    color: rgb(4, 39, 153);
+}
+#content .col-right p{
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 20px;
+}
+#content .list-adv{
+    margin-bottom: 25px;
+    padding-right: 24px;
+    text-align: justify;
+}
+#content .content-right{
+    width: 30%;
+}
+#content .content-right .img-adv{
+    width: 100%;
+    
+}
+/*Content right img hover*/
+#content .content-right{
+    padding-left: 3%;
+    width: 30%;
+}
+#content .img-adv img{
+    width: 100%;
+}
+#content .img-adv{
+    position: relative;
+    margin: 10px 0px;
+    
+}
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color:rgba(241, 238, 238, 0.5);
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+}
+   
+.img-adv:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
+#content .content-right img{
+    width: 100%;
+}
+.link-heading h3{
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(12, 30, 112);
+}
+.list-link{
+    padding-left: 20px;
+}
+.list-link li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(87, 10, 10);
+}
+.document{
+    margin-top: 40px;
+    
+}
+.document .doc-heading{
+    text-align: center;
+    color: rgb(104, 10, 10);
+    font-size: 24px;
+}
+.list-doc{
+    margin-top: 32px;
+}
+.document p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+    color: rgb(87, 10, 10);
+}
+
+.document-left{
+
+}
+.list-document{
+    padding-top: 16px;
+    margin-right: 16px;
+    border-top: #ccc 1px solid;
+    list-style-type: none;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.list-document li{
+    padding: 4px 0;
+}
+.list-document li a{
+    text-decoration: none;
+    color: #000;
+}
+.list-document li img{
+    width: 10px;
+    margin-right: 4px;
+}

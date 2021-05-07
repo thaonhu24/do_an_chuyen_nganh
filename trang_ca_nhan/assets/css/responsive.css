@@ -1,0 +1,133 @@
+@media (max-width:1024px) {
+    #content .profile{
+        top:60px;
+    }
+    #main-content {
+        margin: 24px 66px;
+    }
+    .place-cmt {
+        width: 83%;
+    }
+}
+@media (min-width:768px) and (max-width:1023px) {
+    .dialog-post-place {
+        left: 15%;
+        width: 70%;
+    }
+    .place-cmt {
+        width: 78%;
+    }
+    .place-update {
+        width: 85%;
+    }
+    #content .profile{
+        top:50px;
+    }
+    #main-content {
+        margin: 24px 36px;
+    }
+    #content .img-profile{
+        top: -58px;
+    }
+    #content .img-frame {
+        width: 100px;
+        height: 100px;
+    }
+    .col-status {
+        margin-left: 30px;
+    }
+    .inf li p {
+        font-size: 15px;
+    }
+    .col-inf button{
+        font-size: 16px;
+    }
+}
+@media (max-width:767px){
+    .img-old-post {
+        height: auto;
+    }
+    .place-update {
+        width: 82%;
+    }
+    .dialog-post-place {
+        left: 5%;
+        width: 90%;
+    }
+    #content{
+        margin-top: 72px;
+    }
+    #content .img-frame {
+        width: 50px;
+        height: 50px;
+    }
+    #content .img-profile {
+        top: -30px;
+    }.icon-camera img {
+    width: 20px;
+    height: 20px;
+    }
+    .icon-camera img {
+        width: 15px;
+        height: 15px;
+    }
+    .icon-camera{
+        left: 30px;
+        padding: 3px 4px;
+        padding-bottom: 0px;
+    }
+    #content .profile {
+        top: 24px;
+    }
+    .poster .name {
+        bottom: 20px;
+        left: 62px;
+        font-size: 10px;;
+    }
+    /* Đưa cột về 100%*/
+    .col-res{
+        width: 100% !important;
+    }
+    .col-status {
+        margin-left: 0px;
+        margin-top: 20px; 
+    }
+    #main-content {
+        margin: 24px 36px;
+    }
+    .img-cell {
+        width: 30px;
+        position: relative;
+        overflow: hidden;
+        height: 30px;
+        border-radius: 50%;
+    }
+    .place-update input {
+        padding: 7px 12px;
+        margin-left: 8px;
+    }
+    .img-choose img {
+        width: 100%;
+        margin-left: 18px;
+        margin-top: 11px;
+    }
+    .place-cmt {
+        width: 78%;
+    }
+    .place-cmt input {
+        padding: 7px 12px;
+        margin-left: 6px;
+    }
+    .img-choose-cmt {
+        margin-left: 10px;
+        margin-top: 11px;
+    }
+    .col-inf .header,
+    .new-post h3
+     {
+        font-size: 19px;
+    }
+    .col-inf button {
+        font-size: 16px;
+    }
+}

@@ -93,10 +93,17 @@
     #mobile-menu-close{
         display: none;
     }
-    #nav .nav-menu>li{
+    #nav .nav-menu>li>a {
         display: block;
-        background-color: rgb(10, 35, 143);
-        padding-right:46px
+        padding-right: 80px;
+        padding-left: 12px;
+        padding-top: 0px;
+        padding-bottom: 6px;
+}
+    #nav .nav-menu>li{
+    padding-right: 0px !important;
+    display: block;
+    background-color: rgb(10, 35, 143);
     }
         
         #nav .nav-menu{
@@ -251,17 +258,24 @@
     #mobile-menu-close{
         display: none;
     }
-    #nav .nav-menu>li{
+    #nav .nav-menu>li>a {
         display: block;
-        background-color: rgb(10, 35, 143);
-        padding-right:46px
+        padding-right: 80px;
+        padding-left: 12px;
+        padding-top: 0px;
+        padding-bottom: 6px;
+    }
+    #nav .nav-menu>li{
+    padding-right: 0px !important;
+    display: block;
+    background-color: rgb(10, 35, 143);
     }
         
-        #nav .nav-menu{
-            position: relative;
-            top:46px;
-            margin-left: 0;
-        }
+    #nav .nav-menu{
+        position: relative;
+        top:46px;
+        margin-left: 0;
+    }
     /*------------*/
     #content .part-button button {
         width: 48px;

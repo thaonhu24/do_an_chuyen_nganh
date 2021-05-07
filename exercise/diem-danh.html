@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Điểm danh</title>
+    <link rel="stylesheet" href="./assets/css/diem-danh.css">
+    <link rel="stylesheet" href="../layout/header.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+    <script src='https://cdn.rawgit.com/lrsjng/jquery-qrcode/v0.9.5/dist/jquery.qrcode.min.js'></script>
+
+</head>
+<body>
+    <div id="header">
+        <div class="first-header">
+            <div class="header-admin">
+                <ul class="admin-inf">
+                    <li>
+                        <i class="icon-admin ti-settings"></i>
+                        Admin
+                    </li>
+                    <li>
+                        <img src="../image/phone-call.png" alt="" width="14px" height="14px">
+                        0379089474
+                    </li>
+                    <li>
+                        <i class="icon-admin ti-email"></i>
+                        anhngu4eng@gmail.com
+                    </li>
+                </ul>
+            </div>
+            <div class="heading-user">
+                <ul class="user-inf">
+                    <img src="../image/notification.png" alt="">
+                    <img src="../image/speech-bubble (2).png" alt="">
+                    <img src="../image/profile-user.png" alt="">
+                    <i class="icon-down-user ti-angle-down"></i>
+                </ul>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div id="nav">
+            <div class="img-nav col">
+                <img src="../image/Thiết kế không tên (4).png" alt="" class="nav-logo" >
+            </div>
+            <div class="search-nav col">
+                <img class="col icon-search" src="../image/magnifier.png" alt="">
+                <input class="col search-cell" type="text" placeholder="Tìm kiếm">
+            </div>
+            <div class="col nav-menu">
+                <ul class="menu">
+                    <li><a href="#">TRANG CHỦ</a> </li>
+                    <li><a href="#">
+                        GIỚI THIỆU
+                        <i class="icon-down ti-angle-down"></i>
+                        <div class="thirt-menu">
+                            <ul class="menu-list">
+                                <li><a href="#">Tuyển dụng</a></li>
+                                <li><a href="#">Hệ thống cơ sở</a></li>
+                                <li><a href="#">Đội ngũ giảng viên</a></li>
+                                <li><a href="#">Lịch khai giảng</a></li>
+                            </ul>
+                        </div></a> </li>
+                    <li><a href="#">HỌC VIÊN
+                        <i class="icon-down ti-angle-down"></i>
+                        <div class="thirt-menu">
+                            <ul class="menu-list">
+                                <li><a href="#">Vinh doanh học viên</a></li>
+                                <li><a href="#">Cảm nhận học viên</a></li>
+                                <li><a href="#">Hoạt động ngoại khóa</a></li>
+                            </ul>
+                        </div>
+                    </a> </li>
+                    <li><a href="">KHÓA HỌC
+                        <i class="icon-down ti-angle-down"></i>
+                        <div class="thirt-menu">
+                            <ul class="menu-list">
+                                <li><a href="#">Tiếng anh giao tiếp</a></li>
+                                <li><a href="#">TOEIC 2 kỹ năng</a></li>
+                                <li><a href="#">TOEIC 4 kỹ năng</a></li>
+                                <li><a href="#">IELTS</a></li>
+                            </ul>
+                        </div>
+                    </a></li>
+                    <li><a href="">THI THỬ</a></li>
+                    <li><a href="">TIỆN ÍCH</a></li>
+                    <li><a href="">LIÊN HỆ</a></li>
+                </ul>
+                <i id= "mobile-menu-open"class="btn-menu ti-menu"></i>
+                <i id= "mobile-menu-close"class="btn-menu ti-close"></i>
+            </div>
+        </div>
+    </div>
+    <div id="content">
+        <div class="nav-link">
+            <a href="" class="link-home">Trang chủ</a>
+            <span>>></span>
+            <a href="./exsercise.html" class="link-exercise">Bài tập</a>
+        </div>
+        <p class="heading">
+            DANH SÁCH ĐIỂM DANH
+        </p>
+        <div class="btn-choose-tab">
+            <button id="all">Tất cả</button>
+            <select name="" id="choose-lesson" value="Chọn..">
+                            <option value="" disabled selected>Chọn buổi học </option>
+                            <option id="Lesson-1 " value="Lesson 01">Buổi 01</option>
+                            <option id="Lesson-2 " value="Lesson 02">Buổi 02</option>
+                            <option id="Lesson-3 " value="Lesson 03">Buổi 03</option>
+                            <option id="Lesson-4 " value="Lesson 04">Buổi 04</option>
+                            <option id="Lesson-5 " value="Lesson 05">Buổi 05</option>
+                            <option id="Lesson-6 " value="Lesson 06">Buổi 06</option>
+                            <option id="Lesson-7 " value="Lesson 07">Buổi 07</option>
+                            <option id="Lesson-8 " value="Lesson 08">Buổi 08</option>
+                            <option id="Lesson-9 " value="Lesson 09">Buổi 09</option>
+                            <option id="Lesson-10 " value="Lesson 10">Buổi 10</option>
+                            <option id="Lesson-11 " value="Lesson 11">Buổi 11</option>
+                            <option id="Lesson-12 " value="Lesson 12">Buổi 12</option>
+                            <option id="Lesson-13 " value="Lesson 13">Buổi 13</option>
+                            <option id="Lesson-14 " value="Lesson 14">Buổi 14</option>
+                            <option id="Lesson-15 " value="Lesson 15">Buổi 15</option>
+                            <option id="Lesson-16 " value="Lesson 16">Buổi 16</option>
+                            <option id="Lesson-17 " value="Lesson 17">Buổi 17</option>
+                            <option id="Lesson-18 " value="Lesson 18">Buổi 18</option>
+                            <option id="Lesson-19 " value="Lesson 19">Buổi 19</option>
+                            <option id="Lesson-20 " value="Lesson 20">Buổi 20</option>
+                            <option id="Lesson-21 " value="Lesson 21">Buổi 21</option>
+                            <option id="Lesson-22 " value="Lesson 22">Buổi 22</option>
+                            <option id="Lesson-23 " value="Lesson 23">Buổi 23</option>
+                            <option id="Lesson-24 " value="Lesson 24">Buổi 24</option>
+                            <option id="Lesson-25 " value="Lesson 25">Buổi 25</option>
+                            <option id="Lesson-25 " value="Lesson 26">Buổi 26</option>
+                            <option id="Lesson-27 " value="Lesson 27">Buổi 27</option>
+                            <option id="Lesson-28 " value="Lesson 28">Buổi 28</option>
+                            <option id="Lesson-29 " value="Lesson 29">Buổi 29</option>
+                            <option id="Lesson-30 " value="Lesson 30">Buổi 30</option>
+            </select>
+            <button class="create" id="create-qr">Tạo QR</button>
+            <div class="qr-code-create">
+                <p class="title-code">Mã tham gia lớp học</p>
+                <div id="qrcode"></div>
+                <input type="text" value=""  disabled id="code">
+                <button id="create-code-start">Tạo mã</button>
+                <button id="btn-out-qr">Thoát</button>
+            </div>
+        </div>
+        <div class="table-list-student">
+
+            <table class="table-diem-danh" cellspacing="0">
+                <tr>
+                    <th class="stt">  STT  </th>
+                    <th class="name">Họ Tên</th>
+                    <div class="lesson">
+
+                        <th class="les-1">Buổi 1</th>
+                        <th class="les-2">Buổi 2</th>
+                        <th class="les-3">Buổi 3</th>
+                        <th class="les-4">Buổi 4</th>
+                        <th class="les-5">Buổi 5</th>
+                        <th class="les-6">Buổi 6</th>
+                        <th class="les-7">Buổi 7</th>
+                        <th class="les-8">Buổi 8</th>
+                        <th class="les-9">Buổi 9</th>
+                        <th class="les-10">Buổi 10</th>
+                        <th class="les-11">Buổi 11</th>
+                        <th class="les-12">Buổi 12</th>
+                        <th class="les-13">Buổi 13</th>
+                        <th class="les-14">Buổi 14</th>
+                        <th class="les-15">Buổi 15</th>
+                        <th class="les-15">Buổi 16</th>
+                        <th class="les-15">Buổi 17</th>
+                        <th class="les-15">Buổi 18</th>
+                        <th class="les-15">Buổi 19</th>
+                        <th class="les-15">Buổi 20</th>
+                        <th class="les-15">Buổi 21</th>
+                        <th class="les-15">Buổi 22</th>
+                        <th class="les-15">Buổi 23</th>
+                        <th class="les-15">Buổi 24</th>
+                        <th class="les-15">Buổi 25</th>
+                        <th class="les-15">Buổi 26</th>
+                        <th class="les-15">Buổi 27</th>
+                        <th class="les-15">Buổi 28</th>
+                        <th class="les-15">Buổi 29</th>
+                        <th class="les-15">Buổi 30</th>
+                    </div>
+                </tr>
+                <tr>
+                    <td class="stt">1</td>
+                    <td class="name">Nguyễn Văn A</td>
+                    <td class="les-1"><input type="checkbox" name="" id=""></td>
+                    <td class="les-2"><input type="checkbox" name="" id=""></td>
+                    <td class="les-3"><input type="checkbox" name="" id=""></td>
+                    <td class="les-4"><input type="checkbox" name="" id=""></td>
+                    <td class="les-5"><input type="checkbox" name="" id=""></td>
+                    <td class="les-6"><input type="checkbox" name="" id=""></td>
+                    <td class="les-7"><input type="checkbox" name="" id=""></td>
+                    <td class="les-8"><input type="checkbox" name="" id=""></td>
+                    <td class="les-9"><input type="checkbox" name="" id=""></td>
+                    <td class="les-10"><input type="checkbox" name="" id=""></td>
+                    <td class="les-11"><input type="checkbox" name="" id=""></td>
+                    <td class="les-12"><input type="checkbox" name="" id=""></td>
+                    <td class="les-13"><input type="checkbox" name="" id=""></td>
+                    <td class="les-14"><input type="checkbox" name="" id=""></td>
+                    <td class="les-15"><input type="checkbox" name="" id=""></td>
+                    <td class="les-16"><input type="checkbox" name="" id=""></td>
+                    <td class="les-17"><input type="checkbox" name="" id=""></td>
+                    <td class="les-18"><input type="checkbox" name="" id=""></td>
+                    <td class="les-19"><input type="checkbox" name="" id=""></td>
+                    <td class="les-20"><input type="checkbox" name="" id=""></td>
+                    <td class="les-21"><input type="checkbox" name="" id=""></td>
+                    <td class="les-22"><input type="checkbox" name="" id=""></td>
+                    <td class="les-23"><input type="checkbox" name="" id=""></td>
+                    <td class="les-24"><input type="checkbox" name="" id=""></td>
+                    <td class="les-25"><input type="checkbox" name="" id=""></td>
+                    <td class="les-26"><input type="checkbox" name="" id=""></td>
+                    <td class="les-27"><input type="checkbox" name="" id=""></td>
+                    <td class="les-28"><input type="checkbox" name="" id=""></td>
+                    <td class="les-29"><input type="checkbox" name="" id=""></td>
+                    <td class="les-30"><input type="checkbox" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td class="stt">2</td>
+                    <td class="name">Nguyễn Văn B</td>
+                    <td class="les-1"><input type="checkbox" name="" id=""></td>
+                    <td class="les-2"><input type="checkbox" name="" id=""></td>
+                    <td class="les-3"><input type="checkbox" name="" id=""></td>
+                    <td class="les-4"><input type="checkbox" name="" id=""></td>
+                    <td class="les-5"><input type="checkbox" name="" id=""></td>
+                    <td class="les-6"><input type="checkbox" name="" id=""></td>
+                    <td class="les-7"><input type="checkbox" name="" id=""></td>
+                    <td class="les-8"><input type="checkbox" name="" id=""></td>
+                    <td class="les-9"><input type="checkbox" name="" id=""></td>
+                    <td class="les-10"><input type="checkbox" name="" id=""></td>
+                    <td class="les-11"><input type="checkbox" name="" id=""></td>
+                    <td class="les-12"><input type="checkbox" name="" id=""></td>
+                    <td class="les-13"><input type="checkbox" name="" id=""></td>
+                    <td class="les-14"><input type="checkbox" name="" id=""></td>
+                    <td class="les-15"><input type="checkbox" name="" id=""></td>
+                    <td class="les-16"><input type="checkbox" name="" id=""></td>
+                    <td class="les-17"><input type="checkbox" name="" id=""></td>
+                    <td class="les-18"><input type="checkbox" name="" id=""></td>
+                    <td class="les-19"><input type="checkbox" name="" id=""></td>
+                    <td class="les-20"><input type="checkbox" name="" id=""></td>
+                    <td class="les-21"><input type="checkbox" name="" id=""></td>
+                    <td class="les-22"><input type="checkbox" name="" id=""></td>
+                    <td class="les-23"><input type="checkbox" name="" id=""></td>
+                    <td class="les-24"><input type="checkbox" name="" id=""></td>
+                    <td class="les-25"><input type="checkbox" name="" id=""></td>
+                    <td class="les-26"><input type="checkbox" name="" id=""></td>
+                    <td class="les-27"><input type="checkbox" name="" id=""></td>
+                    <td class="les-28"><input type="checkbox" name="" id=""></td>
+                    <td class="les-29"><input type="checkbox" name="" id=""></td>
+                    <td class="les-30"><input type="checkbox" name="" id=""></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="./assets/exercise.js"></script>
+</body>
+</html>

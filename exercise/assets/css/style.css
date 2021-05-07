@@ -1,0 +1,338 @@
+@font-face{
+    src:url(../../../font/Bo-Font-Full/font-work-sans/WorkSans-Regular.otf);
+    font-family: WorkSans;
+}
+@font-face{
+    src:url(../../../font/Bo-Font-Full/font-work-sans/WorkSans-Bold.otf);
+    font-family: WorkSansB;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family:WorkSans;
+}
+.col{
+    float: left
+}
+.two-col{
+    width: 50%;
+}
+.three-col{
+    width: 33.33333%;
+    display: inline-block;
+}
+.clear{
+    clear: both;
+}
+#content{
+    margin: 10% 8%;
+}
+.content-left{
+    width: 70%;
+    margin-right: 5%;
+}
+.heading-content{
+    display: inline;
+    font-size: 20px;
+    font-weight: 500;
+    color: #7D1717;
+    border-bottom: rgb(121, 119, 119) 2px solid;
+    padding-right: 80px;
+    padding-bottom: 4px;
+}
+.lesson-body{
+    display: block;
+}
+.heading-lesson{
+    margin-top: 20px;
+}
+.name-lesson{
+    display: inline;
+    font-size: 18px;
+    font-weight: 600;
+}
+.date{
+    float: right;
+    display: inline;
+    font-size: 14px;
+    margin-top: 8px;
+    font-style: italic;
+}
+.content-lesson{
+    padding: 14px;
+    margin-top: 8px;
+    margin-bottom: 36px;
+    font-size: 15px;
+    line-height: 28px;
+    background-color: rgba(10, 87, 203, 0.08);
+}
+.video-lesson{
+    margin-top: 30px;
+    width: 100%;
+}
+.content-right{
+    width: 23%;
+}
+.inf-heading{
+    text-align: center;
+    padding: 15px 0;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #fc0808;
+    color: #fff
+}
+.name-class,
+.purpose-class{
+    padding-left: 16px;
+}
+.name-title,
+.name,
+.purpose-title,
+.purpose{
+    display: inline;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    padding-top: 4px;
+}
+.purpose{
+    color: #eb0a0a;
+}
+.name-class{
+    margin-top: 12px;
+}
+.list-action{
+    list-style-type: none;
+    margin: 20px 16px;
+    
+}
+.list-action li:hover,
+#atendence a:hover
+{
+    color: #ec0b0b;
+    cursor: pointer;
+}
+.icon-like{
+    width: 25px;
+    margin-right: 16px;
+    margin-bottom: -4px;
+}
+.btn-log-out{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#log-out-class{
+    padding: 8px 50px;
+    margin: 4px auto;
+    border: none;
+    border-radius: 0;
+    background-color: #FFDF39;
+    color:#B50909;
+    font-size: 14px;
+    text-decoration: underline;
+
+}
+.inf-class{
+    border: #a8a5a5 1px solid;
+    position: fixed;
+    width: 230px;
+}
+/*Tạo tóm tắt nội dung buổi học*/
+textarea:focus,
+input:focus{
+    outline: none;
+}
+.add-lesson{
+    margin-top: 14px;
+}
+.add{
+    float: right;
+    padding: 3px 20px;
+    border: none;
+    background-color: #32177d;
+    color: #fff;
+}
+#choose-lesson{
+    width: 174px;
+    margin-left: 20px;
+    border-radius: 0;
+    border: #7d171754 1px solid;
+    color: #7D1717;
+}
+#title-content{
+    display: block;
+}
+.content-lesson-edt{
+    margin-top: 10px;
+}
+#place-content-lesson{
+    width: 100%;
+    border: #d167679f 1px solid;
+    border-radius: 0;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+}
+.btn-done{
+    background-color: #B50909;
+    color: #fff;
+    padding: 4px 12px;
+    border: none;
+    border-radius: 0;
+}
+.add-lesson{
+    margin-bottom: 40px;
+    /*hiện khi bấm nút thêm*/
+    display: none;
+}
+/*------------------nội dung hiển thị chính---------------------*/
+.main-content-display{
+
+}
+/*--------tạo bài tập-------------*/
+.deadline{
+    margin-top: 20px;
+}
+.title{
+    display: inline;
+}
+.choose-dl{
+    border-radius: 0;
+    border: #A86565 1px solid;
+    padding: 0 10px;
+    margin-left: 40px;
+}
+.content-exercise{
+    margin-top: 30px;
+}
+.content-exercise textarea{
+    width: 100%;
+    border-radius: 0;
+    border: #A86565 1px solid;
+    margin-top: 6px;
+    padding: 10px;
+}
+.btn-content{
+    float: right;
+}
+.btn-content input{
+    margin-left: 20px;
+}
+#btn-upload{
+    border: none;
+    color: #e20000;
+    background-color: #fff;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.btn-done{
+    background-color: #ff0a0a;
+    color: #fff;
+    border: none;
+    padding: 4px 6px;
+}
+.create-exercise{
+    display: none;
+}
+.choose-title{
+    margin-top: 10px;
+}
+select:focus{
+    outline: none;
+}
+#title-notify{
+    width: 180px;
+    border-radius: 0;
+    border: #A86565 1px solid;
+    margin-left: 60px;
+}
+.create-notification{
+    display: none;
+}
+/*-----------------dialog thông báo----------------*/
+.dialog-notification{
+    display: none;
+    position: fixed;
+    background-color: #fff;
+    right: 380px;
+    top: 260px;
+    box-shadow: 0 0 5px #ccc ;
+    z-index: 1000;
+}
+.notification-member{
+    padding: 10px;
+    border: #ccc 1px solid;
+}
+.table-notify{
+    width: 300px;
+}
+.heading-notif{
+    background-color: #32177d;
+    color: #fff;
+    padding: 4px 0;
+}
+.title-notif{
+    font-size: 15px;
+    font-weight: 600;
+}
+.content-notif{
+    font-size: 14px;
+}
+.icon-bell{
+    color: #e20000;
+    float: right;
+    margin-top: 8px;
+    margin-right: 10px;
+}
+#notification p{
+    display: inline;
+}
+/*Điểm danh*/
+.diem-danh{
+    position: fixed;
+    bottom: 50px;
+    width: 230px;
+}
+.diem-danh button{
+    border: #B50909 1px solid;
+    color: #B50909;
+    width: 28px;
+    height: 28px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline;
+    margin-bottom: 4px;
+}
+/**/
+#atendence a{
+    text-decoration: none;
+    color: #000;
+}
+.custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+    width: 20px;
+  }
+  .custom-file-input::before {
+    content: 'Upload file';
+    display: inline-block;
+    background: #fff;
+    border: 1px solid rgb(0, 3, 172);
+    color: #32177d;
+    border-radius: 3px;
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    text-shadow: 1px 1px #fff;
+    font-weight: 600;
+    font-size: 10pt;
+  }
+  .custom-file-input:hover::before {
+    border-color: rgb(0, 18, 100);
+  }
+  .custom-file-input:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+  }
